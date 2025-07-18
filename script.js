@@ -62,4 +62,9 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log("Nota salva no localStorage!"); // Uma mensagem no console para fins de depuração.
     });
 
+    mudacor.addEventListener('click', () => {
+        document.body.classList.add('dark');
+        console.log("cor salva"); // Uma mensagem no console para fins de depuração.
+    });
+
 });

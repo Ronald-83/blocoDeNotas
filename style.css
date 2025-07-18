@@ -66,3 +66,7 @@ p {
     font-size: 20px;
     font-family: sans-serif;
 }
+
+.dark{
+    background-color: black;
+}
